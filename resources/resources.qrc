@@ -6,6 +6,9 @@
     <qresource>
         <file>fonts/RobotoMono-Regular.ttf</file>
     </qresource>
+	    <qresource>
+        <file>fonts/PokeTch.ttf</file>
+    </qresource>
     <qresource>
         <file>images/default_background_image.png</file>
     </qresource>
