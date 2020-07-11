@@ -1,34 +1,34 @@
 @import "functions";
 
-$COLOR_FOREGROUND_DARK: white;                  
+$COLOR_FOREGROUND_DARK: black;                  
 $COLOR_FOREGROUND_NORMAL: lighten(
   $color: #666271,
   $amount: 5,
 );
-$COLOR_FOREGROUND_LIGHT: lighten(     ///TXT4UNSELC 
-  $color: #FED823,
+$COLOR_FOREGROUND_LIGHT: darken(     ///TXT4UNSELC 
+  $color: white,
   $amount: 10,
 );
 
-$COLOR_BACKGROUND_LIGHT: #363739;      ///GENUNSELC
+$COLOR_BACKGROUND_LIGHT: #ec6497;      ///GENUNSELC
 $COLOR_BACKGROUND_NORMAL: darken(
-  $color: black,
+  $color: #c95783,
   $amount: 5,
 );
 $COLOR_BACKGROUND_DARK: darken(      ///BORDER4UNSEL&CLICKCOLOUR
-  $color: black,
+  $color: #ab496f,
   $amount: 10,
 );
 
-$PANEL_BACKGROUND_COLOR: alpha(#303133, 0.3);
-$PANEL_BORDER_COLOR: black;
+$PANEL_BACKGROUND_COLOR: alpha(#dedede, 0.5);
+$PANEL_BORDER_COLOR: #ec6497;
 
 $BORDER_COLOR_DARK: darken($color: $COLOR_BACKGROUND_DARK, $amount: 10);
 $BORDER_COLOR_LIGHT: darken($color: $COLOR_BACKGROUND_LIGHT, $amount: 10);
 $BORDER_COLOR_NORMAL: darken($color: $COLOR_BACKGROUND_NORMAL, $amount: 10);
-$BORDER_SELECTION_COLOR_DARK: #2B272B;
-$BORDER_SELECTION_COLOR_LIGHT: #FED823;
-$BORDER_SELECTION_COLOR_NORMAL: #EAB012;
+$BORDER_SELECTION_COLOR_DARK: #707070;
+$BORDER_SELECTION_COLOR_LIGHT: #a3a3a3;
+$BORDER_SELECTION_COLOR_NORMAL: #dedede;
 
 $BORDER_DARK: 1px solid $BORDER_COLOR_DARK;
 $BORDER_LIGHT: 1px solid $BORDER_COLOR_LIGHT;
