@@ -47,7 +47,7 @@ namespace gui {
             {
                 rootLayout->addWidget(currentStage);
                 rootLayout->setAlignment(currentStage, Qt::AlignLeft);
-                const int font = QFontDatabase::addApplicationFont(":/fonts/Poketch.ttf");
+                const int font = QFontDatabase::addApplicationFont(":/fonts/PokeTch.ttf");
                 const QString family = QFontDatabase::applicationFontFamilies(font)[0];
                 currentStage->setObjectName("currentStageLbl");
                 currentStage->setFont(QFont(family, 36));
